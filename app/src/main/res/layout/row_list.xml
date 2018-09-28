@@ -1,0 +1,70 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:id="@+id/relativel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/usersName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="Username"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/usersName"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:text="Others"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/staus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/usersName"
+                android:layout_centerVertical="true"
+                android:textSize="20dp"
+                android:text="Others"
+                android:layout_marginLeft="5dp"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/st_pdf_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/usersName"
+                android:layout_centerVertical="true"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:text="Others"
+                android:textColor="#000" />
+            <Button
+                android:id="@+id/downloads"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:textAllCaps="false"
+                android:text="Download" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
